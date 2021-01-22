@@ -40,7 +40,7 @@ class _DicePageState extends State<DicePage> {
       child: Row(
         children: <Widget>[
           Expanded(
-            child: FlatButton(
+            child: TextButton(
               child: Image.asset('images/dice$leftDiceNumber.png'),
               onPressed: () {
                 changeDiceFace();
@@ -48,7 +48,7 @@ class _DicePageState extends State<DicePage> {
             ),
           ),
           Expanded(
-              child: FlatButton(
+              child: TextButton(
                   onPressed: () {
                     changeDiceFace();
                   },
